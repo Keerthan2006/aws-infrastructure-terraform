@@ -169,34 +169,21 @@ Refreshing the page alternates between the two Nginx servers because the ALB dis
 
 
 ## Results
-
-
-
 ### Terraform Apply
 
-```
-/images/terraform-apply.png
-```
+![Terraform Apply](images/terraform-apply.png)
 
 ### EC2 Instances
 
-```
-images/ec2.png
-```
+![EC2 Instances](images/ec2.png)
 
 ### Target Group Healthy
 
-```
-images/target-group.png
-```
+![Target Group Healthy](images/target-group.png)
 
 ### Application Load Balancer
 
-```
-images/alb.png
-```
-
-
+![Application Load Balancer](images/alb.png)
 ---
 
 ## Learning Outcomes
