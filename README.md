@@ -175,7 +175,7 @@ Refreshing the page alternates between the two Nginx servers because the ALB dis
 ### Terraform Apply
 
 ```
-images/terraform-apply.png
+/images/terraform-apply.png
 ```
 
 ### EC2 Instances
