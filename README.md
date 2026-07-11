@@ -88,7 +88,7 @@ terraform-project/
 - Public Subnet 1
 - Public Subnet 2
 - Security Group
-The above resources are created in modules/networking
+##### The above resources are created in modules/networking
 
 ### Compute and Loadbalancing
 
@@ -100,7 +100,7 @@ The above resources are created in modules/networking
 - Target Group
 - Listener
 - Target Group Attachments
-The above resources are created in modules/instance-alb
+##### The above resources are created in modules/instance-alb
 
 ---
 
