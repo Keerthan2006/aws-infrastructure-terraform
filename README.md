@@ -65,7 +65,7 @@ terraform-project/
 - Terraform
 - AWS EC2
 - AWS VPC
-- AWS S3 (Remote Backend)
+- AWS S3 (Remote Backend: To store terraform statefile) 
 - AWS Application Load Balancer
 - Target Groups
 - Security Groups
@@ -88,18 +88,19 @@ terraform-project/
 - Public Subnet 1
 - Public Subnet 2
 - Security Group
+The above resources are created in modules/networking
 
-### Compute
+### Compute and Loadbalancing
 
 - EC2 Instance 1
 - EC2 Instance 2
 
-### Load Balancing
 
 - Application Load Balancer
 - Target Group
 - Listener
 - Target Group Attachments
+The above resources are created in modules/instance-alb
 
 ---
 
