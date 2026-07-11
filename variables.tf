@@ -30,3 +30,24 @@ variable "port2" {
   description = "enter http port"
   type = number
 }
+variable "ami" {
+  description = "enter ami id => defines os"
+  type = string
+}
+variable "instance_type" {
+  description = "enter instance type => defines RAM and cores"
+  type = string
+}
+variable "key_name" {
+  description = "enter the key value pair"
+  type = string
+}
+variable "file_path_1" {
+  description = "enter the path for instance 1"
+}
+variable "file_path_2" {
+  description = "enter the path for instance 2"
+}
+variable "private_key_path" {
+  description = "enter the path for instance 1"
+}
