@@ -2,8 +2,6 @@
 
 ## Overview
 
-## Overview
-
 This project provisions a highly available web infrastructure on AWS using Terraform. It creates a custom VPC, public networking components, two EC2 instances, and an Application Load Balancer (ALB) to distribute incoming HTTP traffic between the instances. Terraform **file** and **remote-exec** provisioners are used to automate the installation and configuration of Nginx on each EC2 instance, as well as deploy custom web pages without requiring any manual server setup.
 
 ## Architecture
@@ -60,6 +58,21 @@ terraform-project/
 │
 └── .gitignore
 ```
+
+---
+## Technologies Used
+
+- Terraform
+- AWS EC2
+- AWS VPC
+- AWS S3 (Remote Backend)
+- AWS Application Load Balancer
+- Target Groups
+- Security Groups
+- Internet Gateway
+- Route Tables
+- Ubuntu
+- Nginx
 
 ---
 
@@ -154,21 +167,6 @@ Refreshing the page alternates between the two Nginx servers because the ALB dis
 
 ---
 
-## Technologies Used
-
-- Terraform
-- AWS EC2
-- AWS VPC
-- AWS S3 (Remote Backend)
-- AWS Application Load Balancer
-- Target Groups
-- Security Groups
-- Internet Gateway
-- Route Tables
-- Ubuntu
-- Nginx
-
----
 
 ## Results
 
